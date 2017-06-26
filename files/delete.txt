@@ -1,0 +1,8 @@
+delete from saved_place where savedPlaceId > 0
+delete from user_rate_comments where commentId > 0
+delete from branch where branchId > 0
+
+delete from clinic where clinicId > 0
+delete from hospital where hospitalId > 0
+delete from pharmacy where pharmacyId > 0
+delete from lab where labId > 0
